@@ -9,7 +9,7 @@ export function degreeProgram(email) {
 }
 
 export function level(email) {
-  var pattern = /[bm](?=[0-9]{4}@)/;
+  var pattern = /[bm](?=[0-9]{4}@)/
   return pattern.exec(email)[0].toUpperCase() + 'A';
 }
 

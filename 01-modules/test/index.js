@@ -12,7 +12,7 @@ describe('01-modules', () => {
       valid('hmoser.mmt-b2015@fh-salzburg.ac.at').should.be.true()
     })
     it('should be an invalid FH/MMT email', () => {
-      valid('hannes.moser@fh-salzburg.ac.at').should.be.false()
+      valid('hannes.moser@fh-salzburg.ac.at').should.be.false() 
     })
   })
 
