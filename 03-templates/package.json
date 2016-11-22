@@ -1,7 +1,7 @@
 {
-  "name": "02-router",
+  "name": "03-templates",
   "version": "1.0.0",
-  "description": "Second Assignment for Frontend Development 1",
+  "description": "Third Assignment for Frontend Development 1",
   "main": "index.js",
   "scripts": {
     "build": "grunt",
