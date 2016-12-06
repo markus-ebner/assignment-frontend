@@ -16,4 +16,10 @@ export function es5() {
 }
 
 export function es6() {
+  var o = {
+    result: [1, 2, 3, 4, 5].reduce((elemA,elemB) => {
+      return elemA+elemB;
+    }, 0)
+  };
+  return o;
 }

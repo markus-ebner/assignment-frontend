@@ -11,4 +11,13 @@ export function es5() {
 }
 
 export function es6() {
+  function d(spec) {
+    var {x=0} = spec;
+    var {y=0} = spec;
+    var {z=0} = spec;
+
+    return x + y + z
+  }
+
+  return d
 }
