@@ -1,0 +1,36 @@
+<h3>Interaction</h3>
+<style type = "text/css">
+    #btn {
+        width: 300px;
+        height: 85px;
+        cursor: pointer;
+    }
+    #foreground {
+        cursor: pointer;
+    }
+    #commit, #committed {
+        font-size: 32px;
+        font-family: "Arial", serif;
+    }
+    #committed {
+        font-weight: bold;
+    }
+    .row {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+</style>
+
+<div class="row">
+  <div class="col-sm-12">
+      <svg id="btn" viewBox="0 0 300 85">
+          <g><rect id="background" height="85" width="300" rx="5" ry="5" fill="#428A3E"></rect>
+              <text id="commit" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="white">Commit</text></g>
+          <g id="foreground"><rect id="slider" height="85" width="50" x="0" y="0" rx="5" ry="5" fill="#5CB65C"></rect>
+              <text font-family="Arial" font-size="44" x="15" y="55" fill="white" id="slider-text">></text></g>
+          <text id="committed" visibility="hidden" x="50%" y="56%" text-anchor="middle" fill="white">Committed</text>
+      </svg>
+  </div>
+</div>
+
